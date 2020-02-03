@@ -2,8 +2,7 @@
 title: "Assignment 1 - Basics in R and RMarkdown"
 author: "Shefali Mhadadalkar (spm2172)"
 date: "September 15, 2019"
-output: 
-    rmarkdown::github_document
+output: github_document
 ---
 
 ```{r setup, echo=FALSE}
