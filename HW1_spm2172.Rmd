@@ -3,7 +3,11 @@ title: "Assignment 1 - Basics in R and RMarkdown"
 author: "Shefali Mhadadalkar (spm2172)"
 date: "September 15, 2019"
 output: 
-    html_document
+    html_document:
+        toc: true
+        number_sections: false
+        toc_float: true
+        df_print: paged
 knit: (function(input_file, encoding) {
   out_dir <- 'docs';
   rmarkdown::render(input_file,
